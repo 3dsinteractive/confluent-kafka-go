@@ -24,9 +24,10 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/confluentinc/confluent-kafka-go/kafka"
 	"sync"
 	"time"
+
+	"github.com/3dsinteractive/confluent-kafka-go/kafka"
 )
 
 // The processor's consumer group id.

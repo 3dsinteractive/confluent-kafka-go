@@ -20,13 +20,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/confluentinc/confluent-kafka-go/kafka"
 	"math/rand"
 	"os"
 	"os/signal"
 	"sync"
 	"syscall"
 	"time"
+
+	"github.com/3dsinteractive/confluent-kafka-go/kafka"
 )
 
 // Set to false to disable visualization, useful for troubleshooting.

@@ -22,10 +22,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/confluentinc/confluent-kafka-go/kafka"
 	"math/rand"
 	"sync"
 	"time"
+
+	"github.com/3dsinteractive/confluent-kafka-go/kafka"
 )
 
 // Intersections this application will process.

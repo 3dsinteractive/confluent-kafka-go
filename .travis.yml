@@ -29,18 +29,18 @@ jobs:
    os: osx
    env:
    - BUILD_TYPE='-tags dynamic'
-   - PKG_CONFIG_PATH="$HOME/gopath/src/github.com/confluentinc/confluent-kafka-go/tmp-build/lib/pkgconfig"
-   - LD_LIBRARY_PATH="$HOME/gopath/src/github.com/confluentinc/confluent-kafka-go/tmp-build/lib"
-   - DYLD_LIBRARY_PATH="$HOME/gopath/src/github.com/confluentinc/confluent-kafka-go/tmp-build/lib"
+   - PKG_CONFIG_PATH="$HOME/gopath/src/github.com/3dsinteractive/confluent-kafka-go/tmp-build/lib/pkgconfig"
+   - LD_LIBRARY_PATH="$HOME/gopath/src/github.com/3dsinteractive/confluent-kafka-go/tmp-build/lib"
+   - DYLD_LIBRARY_PATH="$HOME/gopath/src/github.com/3dsinteractive/confluent-kafka-go/tmp-build/lib"
     - LIBRDKAFKA_VERSION=master
  - name: "Go 1.14 Linux dynamic librdkafka"
    go: "1.14"
    os: linux
    env:
    - BUILD_TYPE='-tags dynamic'
-   - PKG_CONFIG_PATH="$HOME/gopath/src/github.com/confluentinc/confluent-kafka-go/tmp-build/lib/pkgconfig"
-   - LD_LIBRARY_PATH="$HOME/gopath/src/github.com/confluentinc/confluent-kafka-go/tmp-build/lib"
-   - DYLD_LIBRARY_PATH="$HOME/gopath/src/github.com/confluentinc/confluent-kafka-go/tmp-build/lib"
+   - PKG_CONFIG_PATH="$HOME/gopath/src/github.com/3dsinteractive/confluent-kafka-go/tmp-build/lib/pkgconfig"
+   - LD_LIBRARY_PATH="$HOME/gopath/src/github.com/3dsinteractive/confluent-kafka-go/tmp-build/lib"
+   - DYLD_LIBRARY_PATH="$HOME/gopath/src/github.com/3dsinteractive/confluent-kafka-go/tmp-build/lib"
     - LIBRDKAFKA_VERSION=master
 
 before_install:

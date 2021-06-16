@@ -23,12 +23,13 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/gdamore/tcell"
 	"os"
 	"sort"
 	"sync"
 	"time"
+
+	"github.com/3dsinteractive/confluent-kafka-go/kafka"
+	"github.com/gdamore/tcell"
 )
 
 // Height and width (terminal characters) per intersection frame.

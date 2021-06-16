@@ -18,8 +18,9 @@ package main
  */
 
 import (
-	"github.com/confluentinc/confluent-kafka-go/kafka"
 	"os"
+
+	"github.com/3dsinteractive/confluent-kafka-go/kafka"
 )
 
 func main() {

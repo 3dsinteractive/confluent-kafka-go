@@ -21,8 +21,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/confluentinc/confluent-kafka-go/kafka"
 	"time"
+
+	"github.com/3dsinteractive/confluent-kafka-go/kafka"
 )
 
 // createTransactionalProducer creates a transactional producer for the given
